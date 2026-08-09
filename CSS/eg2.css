@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+}
+
+body {
+  /* display: flex; */
+  flex-shrink: 1;
+  /* background: url('/Images/Background/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2560x1440-1455.jpg')
+    center / cover no-repeat fixed; */
+  background-color: black;
+}
+
+:root {
+  --primer--color: #f08080;
+  --seconder--color: #fafad2;
+}
+.flex-box {
+  background-color: lightblue;
+  border: 2px solid #0f9696;
+  height: 600px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.flex-name {
+  font-size: 25px;
+  font-weight: 900;
+  background-color: var(--primer--color);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  height: 80px;
+  width: 80px;
+  max-width: 150px;
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: end; */
+  flex-grow: 1;
+  flex-shrink: 0;
+  /* flex: 1 0 100px; */
+}
+
+.color {
+  background-color: var(--seconder--color);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  height: 6em;
+  width: 6em;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.name {
+  background-color: lightseagreen;
+  /* display: flex; */
+  /* justify-self: start; */
+  /* align-self: start; */
+  /* justify-content: end; */
+}
+
+.flex {
+  background-color: lightgreen;
+  /* display: flex; */
+  /* justify-items: end; */
+  /* align-self: s; */
+  /* white-space: nowrap; */
+}
+
+.svg {
+  background-color: rgb(122, 253, 0);
+  /* height: 50px; */
+  width: 50px;
+}
+
+.svg-icon {
+  fill: #ff0000;
+  fill-opacity: 0.6;
+}
+
+.supe {
+  background-color: lightsteelblue;
+  /* flex-shrink: 0; */
+}
+
+.super {
+  background-color: lightskyblue;
+  /* display: flex; */
+  /* align-self: start; */
+}
+
+.super-img {
+  display: none;
+  width: 100px;
+}
+
+.Sign-1 {
+  font-size: 3rem;
+}
+
+.q {
+  background-color: lightblue;
+  font-size: 2rem;
+  margin: 2em;
+  padding: 1em;
+  width: 3em;
+}
+
+.w {
+  background-color: lightcoral;
+  width: 3em;
+}
+
+.e {
+  background-color: lightgreen;
+  width: 2em;
+}
+
+/* .Sign-2 {
+  font-size: 2em;
+  padding: 2em;
+  margin: 2em;
+  width: 2em;
+} */
+
+.qq {
+  background-color: lightblue;
+  font-size: 1em;
+}
+
+.ww {
+  background-color: lightcoral;
+  font-size: 16px;
+  color: aqua;
+}
+
+.qqq {
+  background-color: lightslategray;
+  color: aqua;
+}
+
+.n {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 2em;
+  margin: 2em;
+}
+
+.nn {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2em;
+  margin: 2px;
+}
+
+.aa {
+  background-color: lightskyblue;
+  width: 80vw;
+  text-align: center;
+  display: block;
+}
+
+.jkjk {
+  width: 200px;
+  display: block;
+}
+
+.jkj:focus,
+.jkj:hover {
+  outline: 2px solid red;
+  cursor: pointer;
+  color: rgb(0, 225, 255);
+  border: 2px solid rgb(106, 209, 21);
+  background-color: dodgerblue;
+}
+
+.jkj:active {
+  color: rgb(234, 0, 255);
+  border: 2px solid rgb(216, 140, 121);
+  background-color: rgb(97, 182, 17);
+}
+
+/* .video-box {
+  display: flex;
+  justify-content: center;
+} */
+
+.video-play {
+  display: flex;
+}
+
+.video-theme {
+  border-radius: 20px;
+  width: 400px;
+  position: relative;
+}
+
+.video {
+  border-radius: 20px;
+  opacity: 0;
+  width: 400px;
+  display: block;
+  position: absolute;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.video-theme:hover ~ .video {
+  opacity: 1;
+}
+
+.p23 {
+  /* columns: 4 200px;
+  column-gap: 10px;
+  column-rule: 2px solid black; */
+  text-align: justify;
+}
+
+.p23::first-letter {
+  font-size: 2rem;
+  color: lightcoral;
+  font-weight: bold;
+}
+.p23::first-line {
+  font-size: 1.5rem;
+  color: lightblue;
+  font-weight: bold;
+}
+
+.p23::selection {
+  background-color: lightcoral;
+  color: lightblue;
+  font-weight: bold;
+}
+.p23::marker {
+  color: lightcoral;
+  font-weight: bold;
+}
+
+.p23::before {
+  content: 'Before: ';
+  color: lightcoral;
+  font-weight: bold;
+}
+
+.p23::after {
+  content: ' After.';
+  color: lightcoral;
+  font-weight: bold;
+}
+
+o {
+  background-color: rgba(40, 68, 59, 0.425);
+  backdrop-filter: blur(10px);
+  /* border-radius: 20px; */
+  margin-inline: 40px 20px;
+  padding-inline: 20px 40px;
+  font-weight: 400;
+}
+
+p o:nth-child(2) {
+  background-color: rgba(202, 245, 9, 0.521);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  margin-inline: 40px 20px;
+  padding-inline: 20px 40px;
+  font-weight: 400;
+}
+
+.p23 {
+  background-color: rgba(127, 255, 212, 0.164);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-inline: 40px 20px;
+  padding-inline: 20px 40px;
+  font-weight: 400;
+}
+
+.ud {
+  color: rgba(0, 128, 0, 0.822);
+  background-color: rgba(127, 255, 212, 0.048);
+  backdrop-filter: blur(5px);
+  /* border-radius: 20px; */
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  display: flow-root; /* white-space: nowrap; */ /* column-span: all; */
+  break-before: column;
+  break-inside: avoid;
+  height: 300px; /* overflow: auto; */
+}
+
+.p34 {
+  background-color: rgba(168, 255, 127, 0.425);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-inline: 40px 20px;
+  padding-inline: 20px 40px;
+  font-weight: 400;
+}

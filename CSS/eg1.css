@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  background-image: url(../Images/Background/macos-monterey-wwdc-21-stock-dark-mode-5k-2560x1440-5585.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+.img1 {
+  float: left;
+}
+.img2 {
+  float: right;
+  border: 4px solid lightcoral;
+  border-radius: 50px;
+  margin: 5px;
+}
+div {
+  /* width: 30%; */
+  /* height: 30%; */
+  border-radius: 25px;
+  padding: 5px;
+}
+#div1 {
+  background-color: aqua;
+  float: left;
+  border-radius: 25px 0 10px 0;
+}
+.div2 {
+  background: url(../Images/Background/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2560x1440-1455.jpg)
+    center / cover no-repeat fixed;
+}
+.p1 {
+  text-align: left;
+}
+.p2 {
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h11 {
+  color: tomato;
+  margin: 0 0 25px;
+}
+.table1,
+.th1,
+.td1 {
+  border: 4px solid goldenrod;
+  /* border-radius: 50px; */
+  padding: 3px;
+  border-collapse: collapse;
+}
+th {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blueviolet;
+}
+.table1 {
+  background-color: cadetblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 97%;
+  margin: 10px;
+  /* border-radius: 25px; */
+}
+
+ol {
+  text-align: left;
+}
+form {
+  /* text-align: center; */
+  border: 3px solid chocolate;
+  border-radius: 25px;
+  background-image: linear-gradient(
+    rgba(210, 105, 30, 0.35),
+    rgba(255, 99, 71, 0.35),
+    rgba(255, 217, 0, 0.35)
+  );
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0 0 15px rgb(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+  padding: 3px;
+  margin: 0 30px 0 0;
+  float: left;
+  /* width: 30vw; */
+  /* height: 18vh; */
+}
+.CSS {
+  color: rgb(150, 120, 37);
+  text-decoration: none;
+  background: none;
+  transition:
+    background-color 0.3s,
+    opacity 0.3s;
+}
+.CSS:hover {
+  color: darksalmon;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.CSS:active {
+  opacity: 0.7;
+}
+.submit {
+  background-color: crimson;
+  color: bisque;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 5px 5px 15px rgb(5, 5, 5, 0.5);
+  padding: 5px;
+  font-weight: 800;
+  transition:
+    background-color 0.3s,
+    opacity 0.3s;
+}
+.submit:hover {
+  background-color: rgb(182, 21, 53);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.submit:active {
+  opacity: 0.6;
+}
+#AMG {
+  color: rgb(5, 114, 114);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  transition:
+    background-color 0.3s,
+    opacity 0.3s;
+}
+#AMG:hover {
+  color: rgb(5, 83, 83);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#AMG:active {
+  opacity: 0.7;
+}
+.Sign-up {
+  float: right;
+  color: rgb(245, 140, 211);
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 15px;
+  font-weight: 800;
+  border: 2px solid rgb(245, 140, 211);
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+}
+.Sign-up:hover {
+  color: #311685;
+  background-color: rgb(245, 140, 211);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.Sign-up:active {
+  opacity: 0.7;
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0, 3);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.td2 {
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.td5 {
+  clear: both;
+  display: flow-root;
+}
+
+.p3 {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

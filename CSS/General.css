@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Black+Ops+One&family=Caprasimo&family=Monoton&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Marker+Hatch&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+body {
+  color: #000;
+  background-color: white;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+main {
+  background-color: rgb(247, 247, 247);
+  margin: 57px 1px 0 72px;
+}
+
+section {
+  padding: 20px;
+}

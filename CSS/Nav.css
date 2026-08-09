@@ -1,0 +1,58 @@
+nav {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4px;
+  width: 72px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 56px;
+  z-index: 100;
+}
+
+.nav-box {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 74px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.nav-box:hover {
+  background-color: rgb(237, 237, 237);
+  border-radius: 15px;
+}
+
+.nav-box:active {
+  opacity: 0.4;
+  cursor: wait;
+}
+
+.home-icon,
+.youtube-shorts-icon,
+.subscriptions-icon,
+.user-icon {
+  margin-bottom: 6.5px;
+}
+
+.home-icon {
+  height: 24px;
+}
+
+.youtube-shorts-icon {
+  height: 35px;
+}
+
+.subscriptions-icon {
+  height: 24px;
+}
+
+.user-icon {
+  height: 26px;
+}

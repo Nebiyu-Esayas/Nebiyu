@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Website</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #f7f9fc;
+        color: #333;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+        background: white;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .logo {
+        font-size: 30px;
+        font-weight: bold;
+        color: #2563eb;
+      }
+
+      .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      .nav-links a:hover {
+        color: #2563eb;
+      }
+
+      .btn {
+        padding: 12px 25px;
+        background: #2563eb;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background: #1d4ed8;
+      }
+
+      .hero {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(135deg, #2563eb, #7c3aed);
+        color: white;
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+      }
+
+      .hero p {
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 20px;
+      }
+
+      .hero-btn {
+        display: inline-block;
+        padding: 15px 35px;
+        background: white;
+        color: #2563eb;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: 600;
+        transition: 0.3s;
+      }
+
+      .hero-btn:hover {
+        transform: translateY(-4px);
+      }
+
+      section {
+        padding: 80px 10%;
+      }
+
+      .about {
+        text-align: center;
+      }
+
+      .services h2 {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+      }
+
+      .card {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-8px);
+      }
+
+      .stats {
+        display: flex;
+        justify-content: space-around;
+        background: #2563eb;
+        color: white;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .stat h2 {
+        font-size: 48px;
+      }
+
+      .contact {
+        max-width: 800px;
+        margin: auto;
+      }
+
+      .contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      input,
+      textarea {
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font-size: 16px;
+      }
+
+      textarea {
+        min-height: 150px;
+        resize: vertical;
+      }
+
+      button {
+        padding: 15px;
+        border: none;
+        background: #2563eb;
+        color: white;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background: #1d4ed8;
+      }
+
+      footer {
+        background: #111827;
+        color: white;
+        text-align: center;
+        padding: 25px;
+      }
+
+      @media (max-width: 768px) {
+        .navbar {
+          flex-direction: column;
+          gap: 15px;
+        }
+
+        .nav-links {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .hero h1 {
+          font-size: 40px;
+        }
+
+        .hero p {
+          font-size: 18px;
+        }
+
+        .stats {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">NebTech</div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#" class="btn">Get Started</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Create Amazing Websites</h1>
+
+        <p>
+          Modern HTML & CSS responsive website with beautiful design and
+          animations.
+        </p>
+
+        <a href="#" class="hero-btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+
+      <p>
+        We build professional websites using modern HTML and CSS. Fast,
+        responsive and beautiful.
+      </p>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Web Design</h3>
+          <p>Modern UI/UX Design</p>
+        </div>
+
+        <div class="card">
+          <h3>Responsive</h3>
+          <p>Looks perfect on every device.</p>
+        </div>
+
+        <div class="card">
+          <h3>Performance</h3>
+          <p>Fast loading websites.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <h2>150+</h2>
+        <p>Projects</p>
+      </div>
+
+      <div class="stat">
+        <h2>80+</h2>
+        <p>Clients</p>
+      </div>
+
+      <div class="stat">
+        <h2>10+</h2>
+        <p>Years Experience</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+
+      <form>
+        <input type="text" placeholder="Your Name" />
+
+        <input type="email" placeholder="Email" />
+
+        <textarea placeholder="Message"></textarea>
+
+        <button>Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2026 Modern Website | HTML & CSS</p>
+    </footer>
+  </body>
+</html>
